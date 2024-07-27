@@ -3,8 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { ProductsComponent } from './products/products.component';
+import { HeaderComponent } from './header/header.component';
 
 const routes: Routes = [
+  { path: 'header', component: HeaderComponent },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'products', component: ProductsComponent },

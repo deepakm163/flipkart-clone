@@ -27,5 +27,9 @@ export class ProductsComponent {
     { name: "Soap", price:43, image: this.img},
   ]
 
+  fun(){
+    alert('Button clicked!');
+  }
+
 }
 

@@ -1,3 +1,6 @@
+<div>
+  <app-header></app-header>
+</div>
 <div class="product-list-container">
     <h1>Product List</h1>
     <div class="products">
@@ -5,7 +8,7 @@
         <img [src]="product.image" alt="{{ product.name }}" class="product-image">
         <h2 class="product-name">{{ product.name }}</h2>
         <p class="product-price">{{ product.price | currency }}</p>
-        <button class="btn-buy">Buy Now</button>
+        <button class="btn-buy" (click)="fun()">Buy Now</button>
       </div>
     </div>
   </div>
